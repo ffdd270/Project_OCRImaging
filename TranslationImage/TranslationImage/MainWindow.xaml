@@ -32,9 +32,11 @@
                 <ComboBoxItem Content="English" HorizontalAlignment="Left" Width="118" />
             </ComboBox>
             <ListBox x:Name="ImageList" Height="510" Canvas.Left="858" Canvas.Top="31" Width="230" AllowDrop="True" PreviewDrop="ListBox_PreviewDrop" PreviewDragOver="ListBox_PreviewDragOver" SelectionChanged="ImageList_SelectionChanged">
+                <ProgressBar Height="10" Width="100" />
             </ListBox>
             <Label Content="이미지 파일들" Canvas.Left="858" RenderTransformOrigin="0.496,0.603" Canvas.Top="5" />
             <Label Content="이미지 처리" Canvas.Left="28" RenderTransformOrigin="0.52,0.212" Canvas.Top="5" />
+            <Rectangle Fill="#FF515151" Height="18" Canvas.Top="632" Width="1113" />
         </Canvas>
     </Grid>
 </Window>
